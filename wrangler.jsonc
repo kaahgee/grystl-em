@@ -11,6 +11,7 @@
 			"binding": "DB",
 			"database_name": "grystl-em",
 			"database_id": "c42849fd-fd49-4632-be0e-fd13f0005901",
+			"remote": true,
 		},
 	],
 	"r2_buckets": [
@@ -18,12 +19,14 @@
 			"binding": "MEDIA",
 			"bucket_name": "grystl-em-media",
 			"preview_bucket_name": "grystl-em-media",
+			"remote": true,
 		},
 	],
 	"kv_namespaces": [
 		{
 			"binding": "SESSION",
-			"id": "db51385cb04049c688b81f9a56f4a6de"
+			"id": "db51385cb04049c688b81f9a56f4a6de",
+			"remote": true,
 		}
 	],
 	// Worker Loader for plugin sandboxing
